@@ -29,10 +29,11 @@ Platform shells
 
 | Repository | Role | Status |
 | --- | --- | --- |
-| `noiro-core` | Shared domain models, services and platform contracts | Foundation work |
-| `noiro-tv-engine` | Noiro playback runtime and TV interaction integration | Foundation work |
-| `noiro-kodi-engine` | Kodi upstream fork used for tracked engine research and modifications | Upstream integration |
-| `noiro-skins` | Skins, themes and interface specifications | Foundation work |
+| [`Noiro`](https://github.com/NoiroTV/Noiro) | Public monorepo for Noiro Core, clients, and integrations | Open development |
+| [`noiro-kodi-engine`](https://github.com/NoiroTV/noiro-kodi-engine) | Kodi upstream fork pinned by the Noiro monorepo | Upstream integration |
+| `noiro-core` | Reserved scaffold for a future independently versioned core | Private scaffold |
+| `noiro-tv-engine` | Reserved scaffold for a future independently versioned TV engine | Private scaffold |
+| `noiro-skins` | Reserved scaffold for skins and interface specifications | Private scaffold |
 
 ## Principles
 
@@ -44,7 +45,9 @@ Platform shells
 
 ## Current stage
 
-Noiro is in foundation development. Public interfaces, platform support, packaging and contribution guidance will be published as each boundary becomes stable.
+Noiro is in foundation development. The source monorepo and Kodi fork are now
+public; production binaries, store releases, and full platform support are not
+yet claimed.
 
 ## Licensing and upstreams
 
